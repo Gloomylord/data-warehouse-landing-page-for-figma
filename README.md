@@ -1,9 +1,10 @@
-# Simple React Webpack boilerplate
+# Made up for landing
 
-A ready to use simple boilerplate for React Apps.
+Landing
 
 ## Instructions
 
 * Clone the repo
 * Run `npm install`
-* Run `npm start`
+* Run `npm start` 
+

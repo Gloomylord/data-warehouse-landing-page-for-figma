@@ -1,0 +1,354 @@
+.third-frame {
+    margin-bottom: 30px;
+}
+
+.third-frame-main {
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.third-frame-title {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #212353;
+    margin-bottom: 50px;
+}
+
+.third-frame-text {
+    max-width: 650px;
+
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+
+    text-align: center;
+    color: #4B5D68;
+    margin-bottom: 70px;
+}
+
+.third-frame-container {
+    padding: 30px;
+    justify-content: center;
+    clip-path: polygon(23% 1%, 29% 0, 100% 0, 100% 100%, 0 100%,
+    0% 80%, 12% 15%, 14% 10%, 17% 5.1%, 21% 2%);
+    border-radius: 50px;
+    max-width: 442px;
+}
+
+.third-frame-container-title {
+    max-width: 200px;
+    margin-top: 19px;
+    margin-bottom: 20px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+
+    color: #212353;
+
+
+}
+
+.third-frame-container-text {
+    margin-left: 120px;
+    justify-content: center;
+}
+
+.third-frame-container-description {
+    max-width: 260px;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 160%;
+
+    color: #4B5D68;
+    margin-bottom: 20px;
+}
+
+.third-frame-img-container {
+    position: relative;
+}
+
+.third-frame-img-pos-1 {
+    position: absolute;
+    z-index: -1;
+    left: 152px;
+    top: -57px;
+}
+
+.third-frame-container-btn {
+    transition: color 200ms;
+    align-self: start;
+    margin-right: 20px;
+    cursor: pointer;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 160%;
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.005em;
+    color: #212353;
+}
+
+.third-frame-container-btn:hover {
+    color: #4143da;
+}
+
+.third-frame-container-btn:active {
+    color: #292b84;
+}
+
+.third-frame-img-pos {
+    position: absolute;
+    left: -120px;
+    top: -100px;
+    z-index: 1;
+}
+
+.container {
+    margin: 50px;
+    margin-left: 115px;
+}
+
+.container-color-1 {
+    background: rgba(104, 201, 186, 0.11);
+}
+
+.container-color-2 {
+    background: rgba(156, 105, 226, 0.11);
+}
+
+.container-color-3 {
+    background: rgba(240, 99, 184, 0.1);
+}
+
+.container-color-4 {
+    background: rgba(45, 156, 219, 0.11);
+}
+
+.third-frame-img-pos-2 {
+    position: absolute;
+    z-index: -1;
+    left: 152px;
+    top: 80px;
+}
+
+.third-frame-img-pos-3 {
+    position: absolute;
+    z-index: -1;
+    left: 292px;
+    top: -9px;
+}
+
+.third-frame-img-pos-4 {
+    position: absolute;
+    z-index: -1;
+    left: -19px;
+    top: -44px;
+}
+
+@media (max-width: 1200px) {
+    .third-frame-title {
+        font-size: 32px;
+        margin-bottom: 40px;
+    }
+
+    .third-frame-text {
+        max-width: 80%;
+        font-size: 21px;
+        margin-bottom: 24px;
+    }
+
+    .third-frame-container {
+        padding: 36px;
+        max-width: 530px;
+    }
+
+    .third-frame-container-title {
+        max-width: 240px;
+        margin-top: 15px;
+        margin-bottom: 17px;
+        font-size: 21px;
+    }
+
+    .third-frame-container-text {
+        margin-left: 144px;
+    }
+
+    .third-frame-container-description {
+        max-width: 312px;
+        font-size: 13px;
+        margin-bottom: 17px;
+    }
+
+    .third-frame-container-btn {
+        margin-right: 17px;
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 970px) {
+
+    .third-frame-container-btn {
+        margin-right: 14px;
+        font-size: 11px;
+    }
+
+    .container {
+        margin: 30px;
+        margin-left: 120px;
+    }
+
+    .third-frame-title {
+        font-size: 27px;
+        margin-bottom: 34px;
+    }
+
+    .third-frame-text {
+        max-width: 80%;
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    .third-frame-container {
+        padding: 30px;
+        border-radius: 50px;
+        max-width: 442px;
+        align-self: center;
+    }
+
+    .third-frame-container-title {
+        max-width: 200px;
+        margin-top: 13px;
+        margin-bottom: 14px;
+        font-size: 18px;
+    }
+
+    .third-frame-container-text {
+        margin-left: 120px;
+    }
+
+    .third-frame-container-description {
+        max-width: 260px;
+        font-size: 11px;
+        margin-bottom: 14px;
+    }
+
+    .third-frame-img-pos {
+        width: 180px;
+        left: -120px;
+        top: -45px;
+    }
+
+    .third-frame-img-pos-2 {
+        top: -60px;
+    }
+
+    .third-frame-img-pos-3 {
+        left: 292px;
+        top: -9px;
+    }
+
+    .third-frame-img-pos-4 {
+        left: 42px;
+        top: -37px;
+        width: 242px;
+    }
+
+}
+
+@media (max-width: 600px) {
+    .third-frame-container-btn {
+        margin-right: 2.5vw;
+        font-size: 3vw;
+        align-self: center;
+    }
+
+    .container {
+        margin-top: 5vw;
+        margin-bottom: 3vw;
+        max-width: 80%;
+        align-self: end;
+        margin-left: 0;
+        margin-right: 5vw;
+    }
+
+    .third-frame-main {
+        margin-bottom: 1vw;
+        flex-direction: column;
+    }
+
+    .third-frame-title {
+        font-size: 5.83vw;
+        margin-bottom: 5.67vw;
+    }
+
+    .third-frame-text {
+        max-width: 80%;
+        font-size: 3vw;
+        margin-bottom: 15vw;
+    }
+
+    .third-frame-container {
+        padding: 5vw;
+        border-radius: 5.6vw;
+        max-width: 442px;
+    }
+
+    .third-frame-container-title {
+        max-width: 200px;
+        margin-top: 2vw;
+        margin-bottom: 2.3vw;
+        font-size: 4vw;
+    }
+
+    .third-frame-container-text {
+        margin-left: 20vw;
+    }
+
+    .third-frame-container-description {
+        max-width: 260px;
+        font-size: 3vw;
+        margin-bottom: 2.3vw;
+    }
+
+    .third-frame-img-pos {
+        width: 30vw;
+        left: -10vw;
+        top: -7.5vw;
+    }
+
+    .third-frame-img-pos-2 {
+        top: -10vw;
+    }
+
+    .third-frame-img-pos-3 {
+        left: 49vw;
+        top: -1.5vw;
+    }
+
+    .third-frame-img-pos-4 {
+        left: 7vw;
+        top: -6vw;
+        width: 49vw;
+    }
+
+}
+

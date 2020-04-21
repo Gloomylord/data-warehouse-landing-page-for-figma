@@ -1,0 +1,114 @@
+.second-frame {
+    width: 70%;
+    background: rgba(240, 99, 184, 0.15);
+    border-radius: 60px;
+    margin-bottom: 150px;
+    padding: 20px;
+}
+
+.second-frame-img-container {
+    width: 43%;
+}
+
+.second-frame-text{
+    width: 54%;
+}
+.second-frame-title{
+    margin-left: 62px;
+    margin-bottom: 40px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+
+    color: #212353;
+}
+
+.second-frame-description {
+    margin-left: 62px;
+    max-width: 650px;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+
+    color: #4B5D68;
+
+}
+
+@media (max-width: 1200px) {
+    .second-frame {
+        flex-direction: column-reverse;
+    }
+
+    .second-frame-img-container {
+        margin-top: -50px;
+        width: 90%;
+    }
+
+    .second-frame-text {
+       width: 90%;
+
+    }
+
+    .second-frame-description{
+        margin-left: 0;
+        text-align: justify;
+        max-width: 100%;
+    }
+
+    .second-frame-title {
+        margin-top: 10px;
+        text-align: center;
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+    .second-frame {
+        margin-bottom: 100px;
+        padding: 16px;
+    }
+}
+
+@media (max-width: 970px) {
+    .second-frame-description{
+        font-size: 15px;
+    }
+
+    .second-frame-title {
+        text-align: center;
+        font-size: 35px;
+    }
+    .second-frame-img-container {
+        margin-top: -40px;
+        width: 80%;;
+    }
+    .second-frame {
+        border-radius: 30px;
+        margin-bottom: 90px;
+        padding: 11px;
+    }
+}
+
+@media (max-width: 600px) {
+    .second-frame-description{
+        font-size: 3vw;
+    }
+
+    .second-frame-title {
+        text-align: center;
+        font-size: 5.83vw;
+    }
+    .second-frame-img-container {
+        margin-top: -6.67vw;
+        width: 80%;;
+    }
+    .second-frame {
+        border-radius: 5vw;
+        margin-bottom: 15vw;
+        padding: 5vw;
+    }
+}

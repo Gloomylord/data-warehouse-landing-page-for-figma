@@ -1,4 +1,93 @@
+#root{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    width: 100%;
+}
+body{
+    margin: 0;
+    background: linear-gradient(180deg, #F6FAFD 0%, #FFFFFF 19.4%);
+}
 h1 {
     color: #27aedb;
     text-align: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.center{
+    align-self: center;
+}
+
+.start{
+    align-self: flex-start;
+}
+
+.end{
+    align-self: end;
+}
+
+.center-c{
+    justify-content: center;
+}
+
+.main-container {
+    margin: 0;
+    max-width: 1600px;
+    padding-bottom: 30px;
+}
+
+.w100 {
+    width: 100%;
+}
+.line{
+    margin-top: 150px;
+    background: #212353;
+    opacity: 0.1;
+    height: 3px;
+}
+@media (max-width: 970px) {
+    .line{
+        margin-top: 100px;
+        height: 3px;
+    }
+    .main-container {
+        padding-bottom: 10px;
+    }
+}
+
+@media (max-width: 600px) {
+    .line{
+        margin-top: 16.7vw;
+        height: 3px;
+    }
+}
+
+a:active, a:focus { outline: none; }
+
+input, textarea {outline:none;}
+input:active, textarea:active {outline:none;}
+:focus {outline:none;}
+textarea {resize:none;}
+textarea {resize:vertical;}
+textarea {resize:horizontal;}
+button:active, button:focus {
+    outline: none;
+}
+button::-moz-focus-inner {
+    border: 0;
+}
+
+a{
+    text-decoration: none;
 }
